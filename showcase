@@ -1,6 +1,6 @@
 local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/QqTdj2gm", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-https://pastebin.com/raw/ZkdGreNi
+loadstring(game:HttpGet("https://raw.githubusercontent.com/8F3vqkyXbHloHhf9BF4KeFK4XEjO2IpL49R9rGh/ratio/main/free.lua"))()
 else
 game:service('Players').LocalPlayer:Kick('Not Whitelisted')
 end
